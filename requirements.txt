@@ -2,6 +2,5 @@ streamlit
 numpy
 pandas
 Image
-time
 openai
 os
