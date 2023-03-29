@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 #import azure.cognitiveservices.speech as speechsdk
-from chatgpt_secret import apikey
+apikey = os.environ['API_KEY']
 openai.api_key = apikey
 
 def ask_gpt(question, model="gpt-3.5-turbo"):

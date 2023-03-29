@@ -1,8 +1,8 @@
 import streamlit as st
 import openai
 import os
-from chatgpt_secret import apikey
-#openai.api_key = apikey
+apikey = os.environ['API_KEY']
+openai.api_key = apikey
 
 #OpenAI APIキーを設定する関数
 def setup_openai_api():
