@@ -13,7 +13,7 @@ def render()->st:
     bg_img = '''
     <style>
     .stApp {
-      background-image: url("https://pbs.twimg.com/media/Ew201O2UYAMyJO7?format=jpg&name=large");
+      background-image: url("https://pbs.twimg.com/media/FRbY22yakAAp9Bs?format=jpg&name=large");
       background-size: cover;
       background-repeat: no-repeat;
     }
